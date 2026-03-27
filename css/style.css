@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #24292e;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #24292e;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding:0 4%;
+}
+
+/* ヘッダー */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height : 270px;
+}
+
+#header ul {
+  display: flex;
+  gap: 30px;
+}
+
+#header li img {
+  width: 22px;
+}
+
+/* ファーストビュー */
+#mainvisual img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+}
